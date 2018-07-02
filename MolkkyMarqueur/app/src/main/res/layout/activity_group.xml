@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/txtGroupe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/txtGroupe"/>
+        <EditText
+            android:id="@+id/txtInGroupe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:hint="@string/txtHintGroupe"/>
+        <ListView
+            android:id="@+id/lstGroupe"
+            android:layout_row="1"
+            android:layout_column="0">
+        </ListView>
+        <TextView
+            android:id="@+id/txtNvGroupe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/txtNvGroupe"/>
+        <Button
+            android:id="@+id/btnNvGroupe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="@string/btnNvGroupe"/>
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

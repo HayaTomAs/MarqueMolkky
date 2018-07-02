@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Marqueur pour Molkky</string>
+    <string name="imgAccueil">Mollky</string>
+    <string name="txtGroupe">Nom du groupe</string>
+    <string name="txtHintGroupe">Groupe</string>
+    <string name="txtNvGroupe">Créer ce groupe</string>
+    <string name="btnNvGroupe">Créer</string>
+</resources>
